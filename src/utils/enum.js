@@ -56,7 +56,7 @@ export const getDashboardRoutes = () => {
     CUSTOMER_ROUTE_REQ: "/customer_route_requests",
   });
 };
-export const IS_DEV = true;
+export const IS_DEV = false;
 export const actionStatus = [
   { label: "Yes", value: true },
   { label: "No", value: false },
